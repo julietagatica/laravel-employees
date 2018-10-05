@@ -13,7 +13,7 @@
 
 
 Route::get('/', function () {
-    return view('main');
+    return view('employee');
 });
 
 Route::resource('employees', 'EmployeeController'); 
